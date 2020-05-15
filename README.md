@@ -13,7 +13,7 @@
 * Clone this repository
 * Create a branch called 'dev'. This is the branch where all active development will be taking place. The master branch IS ONLY for the final product ready for deployment.
 
-#### MILESTONE 2: FRONTEND DEVELOPMENT
+### MILESTONE 2: FRONTEND DEVELOPMENT
 * Using HTML, CSS and JavaScript only, make a web page that is similar to the image below
 **Don't use any frontend framework e.d Bootstrap, React etc.**
 ![Website Sample](resum.jpg)

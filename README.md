@@ -10,8 +10,43 @@
 
 *The following are the expectations*
 ### MILESTONE 1: VERSION CONTROL WITH GIT
-* Clone this repository
-* Create a branch called 'dev'. This is the branch where all active development will be taking place. The master branch IS ONLY for the final product ready for deployment.
+1. Clone the repository provided.
+
+2. Make a topic branch. Please keep the master branch clean(Don't push code to master branch). When you create a branch, it essentially will be a copy of the master.
+
+>Pull all changes, make sure your repository is up to date
+
+```sh
+$ cd PortfoliaChallenge
+$ git pull origin master
+```
+
+>Create a new branch as follows-> git checkout -b [your_phone_number], e.g.
+
+```sh
+$ git checkout -b 25472XXXXXXX master
+```
+
+>See all branches created
+
+```sh
+$ git branch --all
+
+* 25472XXXXXXX
+  master
+```
+
+>Push the new branch to github
+
+```sh
+$ git push origin -u 25472XXXXXXX
+```
+
+3.Make changes to the branch following the Code Challenge provided.
+
+4.Commit the changes to your branch and push.
+
+5.Make a pull request to the PortfoliaChallenge Repo.
 
  **Timeline:** 1 day
 
